@@ -50,7 +50,7 @@ function App() {
 
   return (
     <>
-      <Header title="My Todos List" searchBar={false} />
+      <Header title="Todo List" searchBar={false} />
       <AddTodo addTodo={addTodo} />
       <Todos todos={todos} onDelete={onDelete} />
       <Footer />
